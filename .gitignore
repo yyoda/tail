@@ -11,3 +11,6 @@ TestResults
 obj
 bin
 /*.user
+
+/Tail.Tests/Data/*.log
+/Tail.Tests/Data/*.log

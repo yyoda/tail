@@ -5,6 +5,10 @@ using System.Linq;
 
 namespace Tail
 {
+    /// <summary>
+    /// http://gushwell.ifdef.jp/etude/TailCommand.html
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class RingBuffer<T> : IEnumerable<T>
     {
         private int _size;
